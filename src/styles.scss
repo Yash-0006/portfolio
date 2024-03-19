@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;;
+    font-family: "League Spartan", sans-serif;
+
+    .app{
+        background-color: white;
+        height: 100vh;
+
+        hr{
+            width: 1000px;
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        //HEADER
+        .header{
+            background-color: white;
+           height : 90px;
+           box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           z-index: 9999;
+ 
+           .logo{
+            padding:20px;
+            margin: 20px;
+
+            img{
+                height: 80px;
+                width: 140px;
+            }
+           }
+
+           .role{
+            margin-right: 400px;
+            color:gray;
+            font-size: 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a{
+                color: gray;
+
+                &:hover{
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+
+            img{
+                margin :5px 5px 8px 5px ;
+                height: 30px;
+                width: 30px;
+            }
+
+           }
+
+           ul{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+
+            li{
+                list-style-type: none;
+                padding: 20px;
+                margin: 5px;
+                font-size: 22px;
+                color: black;
+
+                &:hover{
+                    color: grey;
+                    cursor: pointer;
+                }
+            }
+           }
+        }
+
+        //HERO
+        .hero{
+            height : 700px;
+            display: flex;
+            justify-content: space-between;
+
+            .editor{
+                margin: 100px;
+                height:400px;
+                width:600px;
+                background-color: rgb(28, 28, 28);
+
+                .upper{
+                    height:30px;
+                    background-color: rgb(52, 51, 51);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .menu{
+                        img{
+                            height: 15px;
+                            width:15px;
+                            margin: 5px 10px 5px 10px;
+                            margin-bottom: -2px;
+                        }
+                        color: white;
+                        font-weight: 100;
+                        font-size: small;
+                        margin-bottom: 5px;
+                    }
+                    
+                    .symbols{
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        p{
+                            color: white;
+                            margin : 5px;
+                        }
+                    }
+                }
+
+                .lower{
+                    .intro{
+                        margin:20px 20px 20px 90px;
+                        .small{
+                            margin:0;
+                            color:grey;
+                        }
+                        .big{
+                            margin: 0;
+                            color:white;
+                            font-size: 180px;
+
+                            span{
+                                -webkit-text-stroke: 3px black;;
+                            }
+                            .surname{
+                                font-size: 174px;
+                            }
+                        }
+                        .comment{
+                            display: flex;
+                            justify-content: space-between;
+
+                            p{
+                                font-size: 60px;
+                                font-style: italic;
+                                margin-top: 72px; 
+                                color:rgb(2, 99, 2);
+                                text-align: center;
+                                font-weight: 200;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    
+        //SKILLS
+        .skills{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 25px;
+            box-shadow: 0px 20px 20px 10px rgba(0, 0, 0, 0.2);
+            margin: 130px 350px 130px 350px;
+            h1{
+                margin-top: 40px;
+                font-size: 60px;
+                font-weight: 800;
+            }
+
+            .items{
+                p{
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+                .item{
+                    display: flex;
+                    align-items: center;
+                }
+                .it1{
+                    img{
+                        margin: 10px;
+                        height: 50px;
+                        width : 50px;
+                    }
+                }
+                .it2{
+                    img{
+                        margin: 10px;
+                        height: 100px;
+                        width : 120px;
+                    }
+                    .rest{
+                        height: 50px;
+                        width : 150px;
+                    }
+                }
+                .it3{
+                    img{
+                        margin: 10px;
+                        height: 60px;
+                        width : 80px;
+                    }
+                    .mysql{
+                        margin-left: 20px;
+                        height : 100px;
+                        width: 100px;
+                    }
+                }
+                .it4{
+                    img{
+                        margin: 10px;
+                        height: 5%;
+                        width : 50px;
+                    }
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        
+        //PROJECTS
+        .projects{
+            margin-top: 100px;
+            .heading{
+                font-size: 70px;
+                font-weight: 800;
+                text-align: center;
+            }
+            .sides{
+                margin: 50px 0px 120px 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .projright{
+                    margin-left: 25px;
+                    margin-right: 400px;
+                    text-align:justify;
+                    img{
+                        height: 100%;
+                        width: 350px;
+                        box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.2);
+                    }
+                    div{
+                        margin: 80px 0px 80px 0px;
+                        height: 200px;
+                        width: 400px;
+                    }
+                    .content{
+                        border: 1px solid black;
+                        box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.2);
+                        border-radius: 10px;
+                        padding: 15px;
+                        padding-left: 20px;
+                        line-height: 20px;
+                    }
+                }
+
+                .projleft{
+                    padding-right: 25px;
+                    border-right: 3px solid black;
+                    direction:rtl;
+                    text-align:justify;
+                    margin-left: 310px;
+                    img{
+                        height: 100%;
+                        width: 350px;
+                        box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.2);
+                    }
+                    div{
+                        margin: 80px 0px 80px 0px;
+                        height: 200px;
+                        width: 400px;
+                    }
+                    .content{
+                        border: 1px solid black;
+                        box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.2);
+                        border-radius: 10px;
+                        padding: 15px;
+                        padding-right: 20px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        //CONTACT
+        .contact{
+            height: 100vh;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p{
+                font-size: 22px;
+                margin: 0;;
+            }
+            h1{
+                margin: 15px 0px 40px 0px;
+                font-size: 62px;
+                font-weight: 800;
+            }
+            .links{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border:2px solid black;
+                border-radius: 50px;
+                padding: 30px 20px;
+                a{
+                    font-size: 17px;
+                    margin-right: 10px;
+                    color: gray;
+
+                    &:hover{
+                        color : black;
+                    }
+                }
+                img{
+                    height: 22px;
+                    width: 22px;
+                    margin:5px;
+                }
+            }
+        }
+
+        //Footer
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    list-style-type: none;
+                    font-size: 20px;
+                    margin:20px;
+                    color: black;
+
+                    &:hover{
+                        color : gray;
+                        cursor: pointer;
+                    }
+                }
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
