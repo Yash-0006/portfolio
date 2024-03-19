@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.71248865.css",
+    "main.js": "./static/js/main.3632d66e.js",
+    "static/media/Maps.png": "./static/media/Maps.3606b36287133c5e51d4.png",
+    "static/media/Quiz.png": "./static/media/Quiz.796c0278685d587b6a3d.png",
+    "static/media/Listify.png": "./static/media/Listify.4d1cddb890079064a4b5.png",
+    "static/media/Family.png": "./static/media/Family.8fdf38330f1106971a5c.png",
+    "static/media/Permalist.png": "./static/media/Permalist.f571e7e3bf0cf60e2466.png",
+    "static/media/Coditor.png": "./static/media/Coditor.7deb5602c4cbf36d23e4.png",
+    "static/media/vscode.png": "./static/media/vscode.a61dc62c499ed3aeefdc.png",
+    "static/media/Postgres.png": "./static/media/Postgres.1840ed8db24169a95af0.png",
+    "static/media/Restful.png": "./static/media/Restful.cd0085dac30dab18a0f5.png",
+    "static/media/C.png": "./static/media/C.83dfa097dfa94f707a41.png",
+    "static/media/Cpp.png": "./static/media/Cpp.1240ce157b70fb399c6c.png",
+    "static/media/Logo.png": "./static/media/Logo.c8b824bdaa2024a1b004.png",
+    "static/media/React.png": "./static/media/React.3b5049ea7908e9da3ba0.png",
+    "static/media/Sass.png": "./static/media/Sass.b4856dfeb58fd76614f8.png",
+    "static/media/Css.png": "./static/media/Css.2ab79bf023a87655a988.png",
+    "static/media/Mysql.png": "./static/media/Mysql.e17ab296b84284a67edc.png",
+    "static/media/Html.png": "./static/media/Html.354f15bf8d57659dc87c.png",
+    "static/media/Nodejs.png": "./static/media/Nodejs.3b1ebf4e971c3da71765.png",
+    "index.html": "./index.html",
+    "main.71248865.css.map": "./static/css/main.71248865.css.map",
+    "main.3632d66e.js.map": "./static/js/main.3632d66e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71248865.css",
+    "static/js/main.3632d66e.js"
+  ]
+}
