@@ -67,22 +67,21 @@ body{
             display: flex;
             justify-content: space-between;
             margin: 20px;
-
-            li{
-                list-style-type: none;
-                padding: 20px;
-                margin: 5px;
-                font-size: 22px;
-                color: black;
                 a{
                     text-decoration: none;
-                }
+                    li{
+                        list-style-type: none;
+                        padding: 20px;
+                        margin: 5px;
+                        font-size: 22px;
+                        color: black;
 
-                &:hover{
-                    color: grey;
-                    cursor: pointer;
+                        &:hover{
+                            color: grey;
+                            cursor: pointer;
+                        }
+                    }
                 }
-            }
            }
         }
 
@@ -349,18 +348,18 @@ body{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                li{
-                    list-style-type: none;
-                    font-size: 20px;
-                    margin:20px;
-                    color: black;
+                a{
+                    text-decoration: none;
+                    li{
+                        list-style-type: none;
+                        font-size: 20px;
+                        margin:20px;
+                        color: black;
 
-                    &:hover{
-                        color : gray;
-                        cursor: pointer;
-                    }
-                    a{
-                        text-decoration: none;
+                        &:hover{
+                            color : gray;
+                            cursor: pointer;
+                        }
                     }
                 }
             }
