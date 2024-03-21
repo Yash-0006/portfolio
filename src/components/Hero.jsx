@@ -15,7 +15,7 @@ export const Hero = () => {
                     <h1 className='small'>I'm</h1>
                     <div className='comment'>
                     <h1 className='big'>Yaswa<span>nth</span><br/> <span className='surname'>Godavarthi</span></h1>
-                    <p>//FullStackDev</p>
+                    <p>//ReactDev</p>
                     </div>
                 </div>
             </div>

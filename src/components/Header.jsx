@@ -10,7 +10,7 @@ export const Header = () => {
     <section>
     <div className='header'>
       <div className='logo'><a href='#Home'><img src={Logo} alt='logo'/></a></div>
-      <div className='role'><a href='https://github.com/Yash-0006'><b>Full Stack Developer - Yash-0006</b></a><img src={Images.logoGit} alt='' /></div>
+      <div className='role'><a href='https://github.com/Yash-0006'><b>React Developer - Yash-0006</b></a><img src={Images.logoGit} alt='' /></div>
       <div className='items'>
         <ul>
         <a href='#Home'><li><b>Home</b></li></a>
